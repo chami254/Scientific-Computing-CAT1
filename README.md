@@ -32,4 +32,15 @@ This script uses numerical integration (specifically, `scipy.integrate.dblquad`)
 
 **Question:** Explain the differences between compiled and interpreted programming languages, and classify Python in this context.
 
-**(Answer to be added by the user)**
+**1.	Execution Process:
+o	Compiled languages translate the entire program into machine code before execution whereas Interpreted languages run the code line-by-line using an interpreter at runtime.
+2.	Speed:
+o	Compiled programs generally run faster because they are already translated into machine code whereas Interpreted programs tend to be slower due to real-time translation during execution.
+3.	Error Handling:
+o	Compiled languages catch most errors at compile-time, before the program runs whereas Interpreted languages catch errors during execution, which may cause runtime interruptions.
+4.	Portability:
+o	Compiled code is often specific to the platform it was compiled on unlike Interpreted code which run on any system that has the appropriate interpreter, making it more portable.
+5.	Examples and Python’s Classification:
+o	Examples of compiled languages include C, C++, and Rust.
+o	Examples of interpreted languages include Python, JavaScript, and Ruby. 
+**
